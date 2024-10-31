@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Roboto', sans-serif;
+
+		}
+		body{
+			background-color: #9cafb1;
+		}
+		.heading{
+			width: 90%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			text-align: center;
+			margin: 20px auto;
+		}
+		.heading h1{
+			font-size: 50px;
+			color: #000;
+			margin-bottom: 25px;
+			position: relative;
+
+		}
+		.heading h1::after{
+			content:"";
+			position: absolute;
+			width: 100%;
+			height: 4px;
+			display: block;
+			margin: 0 auto;
+			background-color: #4caf50;
+
+		}
+		.heading p{
+			font-size: 20px;
+			color: #ee1111;
+			margin-bottom: 35px;
+
+		}
+		.container{
+			width: 90%;
+			margin: 0 auto;
+			padding: 10px 20px;
+
+		}
+		.about{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.about-image{
+			flex: 1;
+			margin-right: 40px;
+			overflow: hidden;
+		}
+		.about-image img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+			transition: 0.5s ease;
+		}
+		.about-image:hover img{
+			transform: scale(1.2);
+
+		}
+		.about-content{
+			flex: 1;
+		}
+		.about-content h2{
+			font-size: 24px;
+			margin-bottom: 15px;
+			color: rgb(184, 9, 9);
+
+		}
+		.about-content p{
+			font-size: 17px;
+			line-height: 1.5;
+			color: black;
+		}
+		.about-content .read-more{
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4caf50;
+			color: #fff;
+			font-size: 19px;
+			text-decoration: none;
+			border-radius: 25px;
+			margin-top: 15px;
+			transition: 0.3s ease;
+		}
+		.about-content .read-more:hover{
+			background-color: #fc0d0d;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="heading">
+		<h1>Services</h1>
+		<p><b>Some Services provide by our Computer Organization.</b> </p>
+	</div>
+	<div class="container">
+		<section class="about">
+			<div class="about-image">
+				<img src="lab.jpeg" style="width: 400px; height: 300px;">
+			</div>
+			<div class="about-content">
+				<h2><b>Services available for you </h2>
+				<p> The computer is a very important machine that has become a useful<br>
+                     part of our life. Also, the computers have twin-faces on one side<br>
+                      it's a boon and on the other side, it's a bane. Its uses completely<br>
+                       depend upon you. Apart from that, a day in the future will come when<br>
+                        human civilization wont be able to survive without computers as we<br>
+                         depend on them too much. Till now it is a great discovery of mankind<br>
+                          that has helped in saving thousands and millions of lives.<br>
+                </b></p>
+				<a href="" class="read-more">Read-More</a>
+			</div>
+		</section>
+		
+	</div>
+
+</body>
+</html>

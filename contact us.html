@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact us</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+		body{
+			background-color: #031730;
+		}
+		.container{
+			width: 80%;
+			margin: 50px auto;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+		}
+		.form-container{
+			flex: 1;
+			margin-right: 50px;
+		}
+		.form-container h2{
+			color: #e68320;
+			font-size: 35px;
+			margin-bottom: 35px;
+		}
+		.content{
+			flex: 1;
+			color: #fff;
+		}
+		.content h2{
+			color: #00f7ff;
+			font-size: 35px;
+			margin-bottom: 35px;
+		}
+		.content p{
+			font-size: 17px;
+		}
+		.content h3{
+			margin-top: 15px;
+			color: #e68320;
+		}
+		input, textarea{
+			width: 100%;
+			padding: 12px;
+			margin-top: 3px;
+			margin-bottom: 8px;
+			border: none;
+			outline: none;
+			border-radius: 5px;
+			background-color: #fff;
+
+		}
+		label{
+			color: #fff;
+			font-size: 17px;
+		}
+		button{
+			font-size: 17px;
+			padding: 10px 20px;
+			margin-top: 5px;
+			border: none;
+			border-radius: 5px;
+			background-color: #4caf50;
+			color: #fff;
+			cursor: pointer;
+			transition: 0.3s ease;
+		}
+		button:hover{
+			background-color: #45e82f;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Your Name</label>
+				<input type="text" name="name" required>
+					<label for="email">Your Email</label>
+				<input type="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea name="message" required></textarea>
+				<button type="submit">Send</button>
+			</form>	
+		</div>
+		<div class="content">
+			<h2>Contact Information</h2>
+			<p>Got questions or need assistance? don't worry! Just reach 
+			out to us using the info provided. we' re here to help!</p>
+			<h3>Email:</h3>
+			<p>contact@deepak.myself</p>
+			<h3>Phone:</h3>
+			<p>+1(9899-563-941)</p>
+			<h3>Address:</h3>
+			<p>156 Main Street, Pathri Bazaar, Gonda, Uttar Pradesh-271123</p>
+		</div>
+	</div>
+
+</body>
+</html>
